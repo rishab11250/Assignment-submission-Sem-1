@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements showcase</title>
+</head>
+
+<body>
+    <h1>HTML Elemts showcase &ndash; Inline vs Block</h1>
+    <p>Introduction: <br>
+        In HTML, elements are broadly divided into two categories: block-level and inline. Block elements take up the
+        full width, while inline elements only take as much space as needed.
+    </p>
+    <a href="#block">[Block Elements]</a><a href="#inline">[Inline Elements]</a><a href="#comparison">[Comparison]</a>
+    <hr>
+    <section id="block">
+        <h2>Block Elements</h2>
+        1. Example:
+        <p> &lt;p>This is a Paragraph&lt;/p></p>
+        Explanation: The &lt;p> tag defines a block of text that always starts on a new line
+        <br>
+        <hr>
+        <p>
+            2. Example :
+        <h1>&lt;h1>This is a heading&lt;h1></h1>
+        Explanation: Heading are block-level elements that take the full width
+        </p>
+        <hr>
+        <p>
+            3. Example: <br>
+        <blockquote>&lt;blockquote>"Coding is the literacy"&lt;/blockquote></blockquote>
+        Explanation: Blockquote is a block container for quotations.
+        </p>
+        <hr>
+        <p>
+            4. Example: <br>
+            &lt;ul> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li> Apple &lt;/li> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li> Mango &lt;/li> <br>
+            &lt;/ul> <br>
+            Explanation: List is a block element for making unordered list and ordered list.
+        </p>
+        <hr>
+        <p>
+            5. Example: <br>
+            &lt;div>This is a division.&lt;/div> <br>
+            Explanation: The &lt;div> tag is a generic container used to group other elements for styling or scripting.
+            It is a quintessential block-level element.
+        </p>
+        <hr>
+        <hr>
+        <p>
+            6. Example: <br>
+            &lt;form>... input elements ...&lt;/form> <br>
+            Explanation: The &lt;form> tag is used to create a container for user input. It is a block-level element.
+        </p>
+        <hr>
+        <hr>
+        <p>
+            7. Example: <br>
+            &lt;section> &lt;h2>Chapter 1&lt;/h2> &lt;/section> <br>
+            Explanation: The &lt;section> tag defines a thematic grouping of content. It is a semantic block-level
+            element.
+        </p>
+        <hr>
+        <p>
+            8. Example: <br>
+            &lt;header> &lt;h1>Main Page Title&lt;/h1> &lt;/header> <br>
+            Explanation: The &lt;header> element represents introductory content, typically a group of introductory or
+            navigational aids. It is a block-level element.
+        </p>
+        <hr>
+    </section>
+    <section id="inline">
+        <h2>Inline Elements</h2>
+        <p>
+            1. Example: <br>
+            This word is &lt;span style="color:blue;">blue&lt;/span>. <br>
+            Explanation: The &lt;span> tag is a generic inline container used to group or style a part of the text
+            without creating a new line.
+        </p>
+        <hr>
+        <p>
+            2. Example: <br>
+            &lt;a href="#">Click me&lt;/a> <br>
+            Explanation: The &lt;a> (anchor) tag defines a hyperlink. It flows within the text and only takes up the
+            space of its content.
+        </p>
+        <hr>
+        <p>
+            3. Example: <br>
+            This text is &lt;strong>important&lt;/strong>. <br>
+            Explanation: The &lt;strong> tag indicates text with strong importance, seriousness, or urgency. It is
+            typically displayed as bold and remains inline with the surrounding text.
+        </p>
+        <hr>
+        <p>
+            4. Example: <br>
+            This text is &lt;em>emphasized&lt;/em>. <br>
+            Explanation: The &lt;em> tag marks text with stress emphasis. It is usually displayed in italics and does
+            not break the flow of text.
+        </p>
+        <hr>
+        <p>
+            5. Example: <br>
+            Here is an image: &lt;img src="image.png" width="50"> <br>
+            Explanation: The &lt;img> tag embeds an image in the document. It is an inline element, meaning text can
+            wrap around it.
+        </p>
+        <hr>
+        <p>
+            6. Example: <br>
+            Enter your name: &lt;input type="text"> <br>
+            Explanation: The &lt;input> tag is used to create interactive controls for web forms. By default, it is an
+            inline element.
+        </p>
+        <hr>
+        <p>
+            7. Example: <br>
+            First line.&lt;br>Second line. <br>
+            Explanation: The &lt;br> tag inserts a single line break. It is an empty inline element used to force the
+            subsequent content to a new line without creating a new paragraph block.
+        </p>
+        <hr>
+        <p>
+            8. Example: <br>
+            Use the &lt;code>document.getElementById()&lt;/code> method. <br>
+            Explanation: The &lt;code> tag is used to define a piece of computer code. It is displayed inline with a
+            monospace font.
+        </p>
+        <hr>
+    </section>
+    <section id="Comparison">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Block Elements</th>
+                    <th>Inline Elements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;div></td>
+                    <td>&lt;span></td>
+                </tr>
+                <tr>
+                    <td>&lt;p></td>
+                    <td>&lt;a></td>
+                </tr>
+                <tr>
+                    <td>&lt;h1></td>
+                    <td>&lt;b></td>
+                </tr>
+                <tr>
+                    <td>&lt;ul></td>
+                    <td>&lt;i></td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquote></td>
+                    <td>&lt;abbr></td>
+                </tr>
+                <tr>
+                    <td>&lt;table></td>
+                    <td>&lt;code></td>
+                </tr>
+                <tr>
+                    <td>&lt;hr></td>
+                    <td>&lt;sup></td>
+                </tr>
+                <tr>
+                    <td>&lt;section></td>
+                    <td>&lt;mark></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <footer>
+        <a href="#top">[Back to Top]</a>
+    </footer>
+    <hr>
+</body>
+</html>
