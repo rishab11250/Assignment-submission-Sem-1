@@ -2,12 +2,15 @@
 int main()
 {
     int n;
-    int cont = 1;
     scanf("%d",&n);
     for(int i =1;i<=n;i++){
         for(int j=0;j<i;j++){
-            printf("%d ",cont);
-            cont = cont + 1;
+            if((i+j)%2==0){
+                printf("0");
+            }
+            else{
+                printf("1");
+            }
         }
         printf("\n");
     }

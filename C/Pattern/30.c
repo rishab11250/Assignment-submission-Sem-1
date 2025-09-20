@@ -19,6 +19,13 @@ int main()
         for(int k =1;k<=i;k++){
             printf(" ");
         }
+        for(int j=0;j<n-i;j++){
+            printf("%c",'A'+j);
+        }
+        for(int k = n-i-2;k>=0;k--){
+            printf("%c",'A'+k);
+        }
+        printf("\n");
     }
     return 0;
 }
